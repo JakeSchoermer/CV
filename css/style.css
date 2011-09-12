@@ -1,0 +1,158 @@
+* { margin: 0; padding: 0; }
+body { font: 14px/1.4 Georgia, serif; }
+
+html, body {min-width:1224px}
+
+body {
+	background-image:url("../images/bg.jpg");
+}
+
+article, aside, figure, footer, header, nav, section { display: block; }
+
+/*Common Colours
+
+	Dark-Blue:#17365d
+	Lime-Green: #75b530
+
+	Site Colours
+	Mocha: #3d2618
+	Gray: #bdbbc1
+	Dark Blue: #0a283b
+	
+*/
+/*Fonts*/
+
+@font-face {
+    font-family: 'MothproofScriptRegular';
+    src: url('../fonts/mothproofscript/Mothproof_Script-webfont.eot');
+    src: url('../fonts/mothproofscript/Mothproof_Script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mothproofscript/Mothproof_Script-webfont.woff') format('woff'),
+         url('../fonts/mothproofscript/Mothproof_Script-webfont.ttf') format('truetype'),
+         url('../fonts/mothproofscript/Mothproof_Script-webfont.svg#MothproofScriptRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+a, a:visited, a:hover, a:active { color:blue;}
+p, td, h1, h2, h3 { color:#17365d;}
+
+h3.section-heading {
+	color:#17365d;
+}
+
+/*Heading*/
+
+heading {
+	/*background-color:#3d2618;*/
+	background-image:url('../images/heading.png');
+	display:block;
+	margin-bottom:10px;
+	
+	height:70px;
+	
+	padding: 10px;
+	text-decoration: none;
+
+	text-shadow: 1px 1px 3px #666666;
+	/*background: -webkit-gradient(linear, 0 0, 0 100%, from(#eb0010), to(#732429));
+	background: -moz-linear-gradient(top, #eb0010, #732429);*/
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	color:black;
+}
+
+heading h1{
+	font-family: MothproofScriptRegular, Helvetica, Arial, Serif;
+	max-width:500px;
+	color:white;	
+}
+
+heading h2{
+	max-width:500px;
+	color:white;
+}
+
+heading h3 {
+	float:left;
+	position:absolute;
+	top:10px;
+	right:10px;
+	color:white;
+}
+
+
+
+/*Book*/
+div.mybook{}
+
+div.page h1 {
+	color:#75b530;
+	font:Cambria, Helvetica, Arial, serif;
+	text-align:center;
+	font-style:italic;
+}
+
+div.page h2{
+	font:Cambria, Helvetica, Arial, serif;
+	color:#17365d;
+	text-align:center;
+	font-style:italic;
+}
+
+/*Contact Info*/
+
+table.contact {
+	margin-bottom:20px;
+}
+
+table.contact th{
+	text-align:left;
+	vertical-align:top;
+	padding-right:50px;
+}
+
+table.contact:nth-child(n) th:after {
+	content:":";
+}
+
+/*Formal Qualifications */
+table.formal-qualifications {
+	margin-bottom:20px;
+}
+table.formal-qualifications th{
+	text-align:left;
+	color:#75b530;
+}
+
+/*Currently Studying */
+
+table.currently-studying th{
+	text-align:left;
+	color:#75b530;
+}
+
+table.currently-studying li{
+	position:relative;
+	left:20px;
+}
+
+img.signature {
+	width:257px;
+	height:88px;
+	margin-top:20px;
+}
+
+
+footer {
+	text-align:center;
+	
+	padding: 10px;
+	text-decoration: none;
+
+	text-shadow: 1px 1px 3px #666666;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#eb0010), to(#732429));
+	background: -moz-linear-gradient(top, #eb0010, #732429);
+}
