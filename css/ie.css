@@ -1,6 +1,6 @@
 /*Fixes for Internet Explorer*/
 
-sidebar a, footer a {
-    border:none;
+sidebar img, footer img {
+    border:0;
     border-style:none;
 }
