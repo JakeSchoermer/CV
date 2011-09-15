@@ -2,477 +2,509 @@
 <html>
 
 <head>
-	<meta charset='UTF-8' />
-	
-	<title>Online CV Application</title>
-	
-	<link rel="stylesheet" href="css/jquery.booklet.1.2.0.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link rel='stylesheet' href='css/style.css' />
-	
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
-	<!--[if lte IE 6]>
-	    <script src="DD_belatedPNG.js" type="text/javascript"></script>
-	    <script type="text/javascript"> 
-	        DD_belatedPNG.fix(".b-shadow-f, .b-shadow-b, .b-p0, .b-p3, .b-arrow-next div, .b-arrow-prev div"); 
-	    </script> 
-	<![endif]--> 
-	
+    <meta charset='UTF-8' />
 
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
-	<script src='js/jquery.js'></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script>
-	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-	<script src="js/jquery.booklet.1.2.0.min.js" type="text/javascript"></script>
-	
-	<script language="javascript" type ="text/javascript">
-	
-		$(function() {
-			//single book
-			$('#mybook').booklet({
-				width: 1200,
-				height: 800,
-				closed: false,
-				autoCenter:true,
-				keyboard:true,
-				pagePadding:25
-			});
-		});
-	
-	</script>
-	
+    <title>Online CV Application</title>
+
+    <!--Favicon -->
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="css/jquery.booklet.1.2.0.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel='stylesheet' href='css/style.css' />
+    <link rel='stylesheet' href='css/context.css' />
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 6]>
+    <script src="DD_belatedPNG.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix(".b-shadow-f, .b-shadow-b, .b-p0, .b-p3, .b-arrow-next div, .b-arrow-prev div");
+    </script>
+    <![endif]-->
+
+    <!-- JavaScript Libraries -->
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+    <script src='js/jquery.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.booklet.1.2.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery.hoverIntent.js" type="text/javascript"></script>
+
+    <!-- JavaScript Application Code -->
+    <script src="js/main.js" type="text/javascript"></script>
+
+
 </head>
 
 <body>
-	
-	<heading>
-	<h1>Jake Schoermer</h1>
-	<h2>Curriculum Vitae</h2>
-	<h3>Last Updated: 10th of September 2011</h3>
-	</heading>
-	
-	<div id="mybook">
-	    <div class="b-load">
-	        <div class="page">
-							<h1>Jake Schoermer</h1>
-							<h2>Curriculum Vitae</h2>
-							
-							<h3 class="section-heading">Contact Info</h3>
-							<table class="contact">
-								<thead></thead>
-								<tbody>
-									<tr>
-										<th>Address</th>
-										<td>101 Sugars Road <br/>
-												Anstead, QLD 4070</td>
-									</tr>
-									<tr>
-										<th>Mobile</th>
-										<td>0418 398 406</td>
-									</tr>
-									<tr>
-										<th>Email</th>
-										<td><a href="mailto:jake@secretservers.net">jake@secretservers.net</a></td>
-									</tr>
-									<tr>
-										<th>Website</th>
-										<td><a href="www.secretservers.net">www.secretservers.net</a></td>
-									</tr>
-								<tbody>
-							</table>
-							
-							<h3 class="section-heading">Formal Qualifications</h3>
-							<table class="formal-qualifications">
-								<thead></thead>
-								<tr>
-									<th>Qualification</th>
-									<th>Institution</th>
-									<th>Year of Attainment</th>
-								</tr>
-								<tbody>
-									<tr>
-										<td>Certificate III in Information Technology	(Support)</td>
-										<td>Axiom College</td>
-										<td>2007</td>
-									</tr>
-									<tr>
-										<td>Certificate II in Business	West Moreton Anglican College	2008</td>
-										<td>West Moreton Anglican College</td>
-										<td>2008</td>
-									</tr>
-									<tr>
-										<td>Queensland Year 12 Graduate (2008)</td>
-										<td>West Moreton Anglican College</td>
-										<td>2008</td>
-									</tr>
-									<tr>
-										<td>Certificate IV in Information Technology (Networking)</td>
-										<td>Axiom College</td>
-										<td>2009</td>
-									</tr>
-								</tbody>
-							</table>
 
-							
-							<h3 class="section-heading">Currently Studying</h3>
-							<table class="currently-studying">
-								<thead></thead>
-								<tr>
-									<th>Qualification</th>
-									<th>Institution</th>
-									<th>Expected Completion Date</th>
-								</tr>
-								<tbody>
-									<tr>
-										<td>Bachelor of Information Technology/ Bachelor of Arts </td>
-										<td>University of Queensland</td>
-										<td>2010</td>
-									</tr>
-									<tr>
-										<th COLSPAN=3 style="text-align:center; padding-top:20px">Current Courses: Semester 2 2011</th>
-									</tr>
-									<tr>
-										<td COLSPAN=3><ul>
-											<li>COMP2506 – Data Structures and Algorithms (Java)</li>
-											<li>CSSE1000 – Introduction to (Digital) Computer Systems</li>
-											<li>POLS1301 – Introduction to Political Ideas</li>
-											<li>POLS1101 – Introduction to Australian Political Institutions</li>
-										</ul></td>
-									</tr>
-								</tbody>
-							</table>
-	
-	        </div>
-	        <div class="page">
-	            <table>
-								<thead></thead>
-								<tbody>
-		            <tr>
-									<th COLSPAN=3>Current Courses: Semester 2 2011</th>
-								</tr>
-								<tr>
-									<td COLSPAN=3><ul>
-										<li>HIST2407 – Germany:  Bismarck to Hitler</li>
-										<li>HIST1400 – Europe 1200 to 1800</li>
-										<li>CSSE1001 – Software Engineering – (Programming in Python)</li>
-										<li>MMDS1400 – Introduction to Web Design – (HTML/XHTML, CSS, PHP and Javascript)</li>
-										<li>HIST1601 – Turning Points in World History</li>
-										<li>HIST2408 – Germany: Hitler to Reunification</li>
-										<li>INFS1200 – Intro to Information Systems</li>
-										<li>INFS302 – Web Information Systems</li>
-										<li>CSSE2002 – Programming in the Large (Java)</li>
-									</ul></td>
-								</tr>
-								</tbody>
-							</table>
-							
-							<h3 class="section-heading">Work History</h3>
-							
-							<table class="work-history">
-								<thead>
-									<th>Role</th>
-									<th>Company</th>
-									<th>Timeframe</th>
-								</thead>
-								<tbody>
-									
-									<tr>
-										<th>Web Designer and Developer</th>
-										<th>Self-Employed</th>
-										<th>May 2010 - Present</th>
-									</tr>
-									<tr>
-										<td COLSPAN=3>
-											<p><em>Description</em>I have started my own business in order to market and sell my web design and development skills.  I have begun to develop sites using XHTML/HTML5, CSS, PHP and JavaScript, using the WordPress and Drupal Content Management Systems. I have also been working on projects using Ruby on Rails.</p>
-											<p>I have also contracted to other developers to complete work on sites for their own clients. Further Information can be provided upon request.</p>
-											
-										</td>
-									</tr>
-									<tr>
-										<th>Web Designer/Developer</th>
-										<th>Mooball IT</th>
-										<th>February - May 2011</th>
-									</tr>
-									<tr>
-										<td COLSPAN=3>
-											<p><em>Description</em>Part-time role developing internal application in Python using the Pyramid Framework. The position also involved using the Git VCS and interfacing with external APIs provided by other vendors.</p>
-										</td>
-									</tr>
-									
-									<tr>
-										<th>UQDance Club Secretary</th>
-										<th>UQDance</th>
-										<th>2010-2011</th>
-									</tr>
-									<tr>
-										<td COLSPAN=3>
-											<p><em>Description</em>I am the club secretary for UQDance, a social club that exists on campus at the University of Queensland with approximately 700-800 members. As club secretary my responsibilities include liaising with other club executives in order to arrange for a number of events run by the club, most notably our main Wednesday night dance sessions and classes. I also have input in the decision making process for any other club event.</p>
+<heading>
+    <h1>Jake Schoermer</h1>
+    <h2>Curriculum Vitae</h2>
+    <h3>Last Updated: 15th of September 2011</h3>
+</heading>
 
-											<p>As secretary, I am individually responsible for maintaing documentation of all formal meetings, managing electronic communication with members (such as group emails) as well as liasing and aiding the club treasurer with financial processes.</p>
+<div id="heading-strip">
 
-											<p>I am also responsible for maintaining the UQDance website at <a href="www.uqdance.net" target="_blank">www.uqdance.net</a> including content creation and technical skills. I am currently in the process of upgrading the site to a new WordPress system. I have developed a new WordPress theme, and will be ready to deploy the new site by the end of January.</p>
-											
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							
-	        </div>
-	        <div class="page">
-		
-						<table>
-							<thead>
-								<th>Role</th>
-								<th>Company</th>
-								<th>Timeframe</th>
-							</thead>
-							<tbody>
-	            <tr>
-								<th>Web Designer/Developer – Summer Research Scholarship</th>
-								<th>University of Queensland</th>
-								<th>November 22 2010 - February 2011</th>
-							</tr>
-							<tr>
-								<td COLSPAN=3>
-									<p><em>Description</em>I participated in a Summer Research Scholarship for a 10 week period and was working on a Biology Laboratory simulation project that is being developed in SproutCore, which is an MVC JavaScript framework, notably used by Apple in their MobileMe product suite.</p>
+</div>
 
-									<p>For more information please contact either myself on the above details or the Co-ordinator John Zornig by email at <a href="mailto:j.zornig@uq.edu.au">j.zornig@uq.edu.au</a> (Profile at <a href="http://ceit.uq.edu.au/people/jz" target="_blank">http://ceit.uq.edu.au/people/jz</a>)</p>
-								</td>
-							</tr>
-							
-							<tr>
-								<th>Computer Technician</th>
-								<th>Rix Computers</th>
-								<th>Feb 15 2009 - Feb 26 2010</th>
-							</tr>
-							<tr>
-								<td COLSPAN=3>
-									<p><em>Technical Duties</em> Day-to-day duties included; Desktop and Laptop Repairs and Upgrades, Software Installation, OS Installs, Network Setup, Basic Data Recovery, Basic Server Administration. In this vain I was also responsible for advising customers in a wide-range of technical matters.</p>
+<div id="sidebar">
+    <ul>
+        <li><a href="http://www.github.com/Schermy" class="context">
+            <img src="images/socialmediaicons/github-48x48.png" width="48" height="48" alt="See my Code on Github">
+        </a></li>
 
-									<p>I also performed some on-site work for various clients. In this capacity I was often responsible for installing new PCs, configuring and installing peripherals, setting up networks and configuring network equipment.</p>
+        <li><a href="http://www.twitter.com/Schermy" class="context">
+            <img src="images/socialmediaicons/twitter-48x48.png" width="48" height="48" alt="Follow Me on Twitter!">
+        </a></li>
 
-									<em>Store Management<em><p>As an employee of a small business, I was also tasked with performing other, non-technical tasks.  Among these were:</p>
-									
-									<ul>
-										<li>Ordering Stock</li>
-										<li>Processing Stock</li>
-										<li>Handling RMAs</li>
-										<li>Customer Service</li>
-										<li>Sales</li>
-									</ul>
+        <li><a href="http://au.linkedin.com/pub/jake-schoermer/28/9b2/98" class="context">
+            <img src="images/socialmediaicons/linkedin-48x48.png" width="48" height="48" alt="See my LinkedIn Profile">
+        </a></li>
+
+    </ul>
+</div>
+
+<div id="mybook">
+<div class="b-load">
+<div class="page">
+    <h1>Jake Schoermer</h1>
+    <h2>Curriculum Vitae</h2>
+
+    <h3 class="section-heading">Contact Info</h3>
+    <table class="contact">
+        <thead></thead>
+        <tbody>
+        <tr>
+            <th>Address</th>
+            <td>101 Sugars Road <br/>
+                Anstead, QLD 4070</td>
+        </tr>
+        <tr>
+            <th>Mobile</th>
+            <td>0418 398 406</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><a href="mailto:jake@secretservers.net">jake@secretservers.net</a></td>
+        </tr>
+        <tr>
+            <th>Website</th>
+            <td><a href="www.secretservers.net">www.secretservers.net</a></td>
+        </tr>
+        <tbody>
+    </table>
 
 
-									<p>Other Duties:  I was also responsible for counting and balancing the takings each week and preparing them for banking.<p> 
+    <img src="images/me.jpg" id="profile"/>
 
-									<p><em>Other Details</em> Full Time Employment – Approx 50 hours per week. Of note is also the fact that the responsibility of running the store was shared between only myself and one other employee. As such when my colleague was away for any reason, I was solely responsible for the day-to-day running of the store, on one occasion for a week and a half with minimal input or supervision from my boss.</p>
-									
-								</td>
-							</tr>							
-						</tbody>
-						</table>
-	        </div>
-	        <div class="page">
-	            <table>
-								<thead>
-									<th>Role</th>
-									<th>Company</th>
-									<th>Timeframe</th>
-								</thead>
-								<tbody>
-									<tr>
-										<th>Trainee Network and Systems Administrator</th>
-										<th>IT Training Solutions</th>
-										<th>Feb 2008 - Mar 2009</th>
-									</tr>
-									<tr>
-										<td COLSPAN=3>
-											<p><em>Duties</em> Day-to-day duties included; computer repair, configuring network resources, configuring computers and network services, setting-up computer labs, re-cabling, server backups,  and asset management.</p>
-											<p>During my tenure I was also responsible for deploying Ghost Solutions Suite 2.5, transitioning the desktop imaging system to a PXE-based boot system, where boot disks had previously been required. As part of a larger team, I also aided in the creation of images for the system.</p>
 
-											<p><em>Other Details</em> Part-Time work, one day per week as a School-based Trainee. Work completed alongside Certificate IV in Information Technology (Networking).</p>
+    <h3 class="section-heading">Formal Qualifications</h3>
+    <table class="formal-qualifications">
+        <thead></thead>
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year of Attainment</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>Certificate III in Information Technology	(Support)</td>
+            <td>Axiom College</td>
+            <td>2007</td>
+        </tr>
+        <tr>
+            <td>Certificate II in Business	West Moreton Anglican College	2008</td>
+            <td>West Moreton Anglican College</td>
+            <td>2008</td>
+        </tr>
+        <tr>
+            <td>Queensland Year 12 Graduate (2008)</td>
+            <td>West Moreton Anglican College</td>
+            <td>2008</td>
+        </tr>
+        <tr>
+            <td>Certificate IV in Information Technology (Networking)</td>
+            <td>Axiom College</td>
+            <td>2009</td>
+        </tr>
+        </tbody>
+    </table>
 
-										</td>
-									</tr>
-									<tr>
-										<th>Trainee Computer Technician</th>
-										<th>Rix Computers</th>
-										<th>Dec 2007 - Dec 2008</th>
-									</tr>
-									<tr>
-										<td COLSPAN=3>
-											<p><em>Duties</em>Day-to-day duties included; repairing Computers, Conducting Sales, Advising customers in computer and consumer electronics related topics, Stock-taking.</p>
-											<p><em>Other Details</em>Part-Time work, one day per week as a School-based Trainee. Work completed alongside Certificate III in Information Technology (Support) (see above).</p>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-	        </div>
-					<div class="page">
-						<h3 class="section-heading">Information Technology Skills Applicable in a Business Environment</h3>
-						<p>Throughout my career, I have sought to gain skills and knowledge within my profession, below I have listed a number of skills that I believe make me valuable within my field:</p>
-						<ul>
-						  <ul>
-						    <li>OS Deployment – I  have experience in installing and configuring a wide range of desktop and server operating systems including:</li>
-						    <ul>
-						      <li> Windows (All desktop versions from 3.141 through to 7 (excluding only NT4) plus Server 2003 and Server 2008</li>
-						      <li>Linux (Including Ubuntu Server)</li>
-						      <li>Mac OS X (10.5 and 10.6)</li>
-						    </ul>
-						  </ul>
-						  <ul>
-						    <li>OS Virtualistaion </li>
-						    <ul>
-						      <li>Oracle Virtualbox Installationand Management </li>
-						      <ul>
-						        <li>PHP Virtualbox </li>
-						      </ul>
-						      <li>VMware Workstation </li>
-						      <li>Microsoft Virtual PC/Server and Hyper-V </li>
-						      <li>Configuration of Guest Operating Systems including </li>
-						      <ul>
-						        <li>Windows </li>
-						        <li>Linux </li>
-						        <li>Open Solaris </li>
-						        <li>Linux </li>
-						      </ul>
-						    </ul>
-						  </ul>
-						  <ul>
-						    <li>Configuring Windows Server 2008 Roles (including R2) - </li>
-						    <ul>
-						      <li>OS Deployment</li>
-						      <li>Configuring Domain Controllers</li>
-						      <li>DHCP and DNS</li>
-						      <li>VPN Gateway</li>
-						      <li>Print Server</li>
-						      <li>File Server</li>
-						      <li>Windows Server Backup</li>
-						      <li>Windows Server Update Service (WSUS)</li>
-						      <li>Hyper-V</li>
-						    </ul>
-						  </ul>
-						</ul>
-						
-					</div>
-					<div class="page">
-						<ul>
-						  <li>Windows Domains Management –</li>
-						  <ul>
-						    <li>Joining Windows Based Clients:</li>
-						    <li>Joining Linux Clients using Likewise</li>
-						    <li>Joining Mac OS X clients</li>
-						    <li>Group Policy Configuration</li>
-						  </ul>
-						</ul>
-						<ul>
-						  <li>Linux Server Deployment -</li>
-						  <ul>
-						    <li>Samba Configuration</li>
-						    <li>LAMP Server Installation and Configuration</li>
-						    <li>OpenSSH Server</li>
-						    <li>Postgresql and MySQL Installation and Configuration</li>
-						  </ul>
-						</ul>
-						<ul>
-						  <li>Zimbra Collaboration Suite (Microsoft Exchange Competitor) –</li>
-						  <ul>
-						    <li>Installation on Linux Hosts</li>
-						    <li>Configuring Relevant DNS MX Records</li>
-						    <li>Domain Name Registration</li>
-						  </ul>
-						</ul>
-						<ul>
-						  <li>Network  Configuration</li>
-						  <ul>
-						    <li>Deployment of Routers, Modems, Switches and Wireless APs</li>
-						    <li>Router Configuration including:</li>
-						    <ul>
-						      <li>Port Forwarding and VPN Pass-through</li>
-						      <li>Firewall Management</li>
-						      <li>Configuring DHCP (either through modem/router or dedicated server)</li>
-						    </ul>
-						    <li>Modem  Configuration including:</li>
-						    <ul>
-						      <li>Internet Setup</li>
-						      <li>Configuring Bridge mode with Suitable Router</li>
-						    </ul>
-						    <li>Wireless Access Point  Configuration including:
-						      <ul>
-						        <li> Creating Hotspot</li>
-						        <li> Securing with Relevant Encryption</li>
-						      </ul>
-						    </li>
-						  </ul>
-						</ul>
-					</div>
-					
-					<div class="page">
-						<ul>
-						  <li>Other Programming Experience </li>
-						  <ul>
-						    <li>Experience with C Programming Language in developing for ATmega64 based microcontrollers.</li>
-						  </ul>
-						</ul>
-						<ul>
-						  <li>Computer Hardware Repair; with Relevant Work Experience Listed.</li>
-						</ul>
-						<p>I hereby declare that all of this information is true and correct as of today Thursday, September 10, 2011</p>
-						
-						<img src="images/signature.png" class="signature"/>
-					</div>
-					
-					<div class="page">
-						<h3 class="section-heading">Referees</h3>
-						
-						<p>John Zornig – Senior Systems Architect<br>
-						Centre for Educational Innovation and Technoloy (CEIT)<br>
-						University of Queensland, St Lucia<br>
-						                    <br>
-						  Ph: 07 3365 1642<br>
-						  M: 04 3435 1532<br>
-						  Email: <a href="mailto:j.zornig@uq.edu.au">j.zornig@uq.edu.au</a></p>
 
-						  <hr/>
+    <h3 class="section-heading">Currently Studying</h3>
+    <table class="currently-studying">
+        <thead></thead>
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Expected Completion Date</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>Bachelor of Information Technology/ Bachelor of Arts </td>
+            <td>University of Queensland</td>
+            <td>2010</td>
+        </tr>
+        <tr>
+            <th COLSPAN=3 style="text-align:center; padding-top:20px">Current Courses: Semester 2 2011</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3><ul>
+                <li>COMP2506 – Data Structures and Algorithms (Java)</li>
+                <li>CSSE1000 – Introduction to (Digital) Computer Systems</li>
+                <li>POLS1301 – Introduction to Political Ideas</li>
+                <li>POLS1101 – Introduction to Australian Political Institutions</li>
+            </ul></td>
+        </tr>
+        </tbody>
+    </table>
 
-						<p>Len Smith – Lenardi Driving School<br>
-						                    Ph – 04 0664 6216<br>
-						                    Email:  <a href="mailto:lenardidrivingschool@gmail.com">lenardidrivingschool@gmail.com</a></p>
-						  <hr/>
-						<p>Simon Sturmer – Freelance Developer<br>
-						                    Ph: 0434964144<br>
-						                    Email: <a href="mailto:simon@sigate.com.au">simon@sigate.com.au</a></p>
-						  <hr/>
+</div>
+<div class="page">
+    <table>
+        <thead></thead>
+        <tbody>
+        <tr>
+            <th COLSPAN=3>Current Courses: Semester 2 2011</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3><ul>
+                <li>HIST2407 – Germany:  Bismarck to Hitler</li>
+                <li>HIST1400 – Europe 1200 to 1800</li>
+                <li>CSSE1001 – Software Engineering – (Programming in Python)</li>
+                <li>MMDS1400 – Introduction to Web Design – (HTML/XHTML, CSS, PHP and Javascript)</li>
+                <li>HIST1601 – Turning Points in World History</li>
+                <li>HIST2408 – Germany: Hitler to Reunification</li>
+                <li>INFS1200 – Intro to Information Systems</li>
+                <li>INFS302 – Web Information Systems</li>
+                <li>CSSE2002 – Programming in the Large (Java)</li>
+            </ul></td>
+        </tr>
+        </tbody>
+    </table>
 
-						      <p>Curtis Chappell – General Manager</p>
-						      <p>IT Training Solutions<br>
-						        Ground Floor,   62 Astor Terrace<br>
-						        Spring Hill   QLD 4000</p>
-						      <p>Ph 1300 135   375<br>
-						Email: <a href="mailto:curtis@itts.com.au">curtis@itts.com.au</a></p></td>
+    <h3 class="section-heading">Work History</h3>
 
-						
-					</div>
-						
-	    </div>
-	</div>
-	
-	<footer>
-		<p>Contact me via email at <a href="mailto:jake@secretservers.net">jake@secretservers.net</a> or by phone on 0418398406</p>
-		<p>I work with:<p>
-		<p>
-			<!-- Technologies -->
-			<img src="images/html5_logo.png" alt="Html5 Logo"/>
-			<a href src="http://jquery.com" alt="JQuery Logo"><img src="images/jquery.png" alt="jquery logo"></a>
-			<a href src="http://rubyonrails.org/" alt="Ruby on Rails Logo"><img src="images/rails.png"></a>
-			<!--Content Management Systems -->
-			<a href src="" alt="WordPress logo"><img src="images/wordpress.png"/></a>
-			<a href src="" alt="Drupal logo"><img src="images/drupal.png"></a>
-		</p>
-	</footer>
-	
+    <table class="work-history">
+        <thead>
+        <th>Role</th>
+        <th>Company</th>
+        <th>Timeframe</th>
+        </thead>
+        <tbody>
+
+        <tr>
+            <th>Web Designer and Developer</th>
+            <th>Self-Employed</th>
+            <th>May 2010 - Present</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3>
+                <p><em>Description</em>I have started my own business in order to market and sell my web design and development skills.  I have begun to develop sites using XHTML/HTML5, CSS, PHP and JavaScript, using the WordPress and Drupal Content Management Systems. I have also been working on projects using Ruby on Rails.</p>
+                <p>I have also contracted to other developers to complete work on sites for their own clients. Further Information can be provided upon request.</p>
+
+            </td>
+        </tr>
+        <tr>
+            <th>Web Designer/Developer</th>
+            <th>Mooball IT</th>
+            <th>February - May 2011</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3>
+                <p><em>Description</em>Part-time role developing internal application in Python using the Pyramid Framework. The position also involved using the Git VCS and interfacing with external APIs provided by other vendors.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <th>UQDance Club Secretary</th>
+            <th>UQDance</th>
+            <th>2010-2011</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3>
+                <p><em>Description</em>I am the club secretary for UQDance, a social club that exists on campus at the University of Queensland with approximately 600 members. As club secretary my responsibilities include liaising with other club executives in order to arrange for a number of events run by the club, most notably our main Wednesday night dance sessions and classes. I also have input in the decision making process for any other club event.</p>
+
+                <p>As secretary, I am individually responsible for maintaing documentation of all formal meetings, managing electronic communication with members (such as group emails) as well as liasing and aiding the club treasurer with financial processes.</p>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+<div class="page work-history">
+
+    <p>I am also responsible for maintaining the UQDance website at <a href="www.uqdance.net" target="_blank">www.uqdance.net</a> including content creation and technical skills. I have updgraded the site to a WordPress System with a custom theme, moving much of the relevant content.</p>
+
+
+    <table class="work-history">
+        <thead>
+        <th>Role</th>
+        <th>Company</th>
+        <th>Timeframe</th>
+        </thead>
+        <tbody>
+        <tr>
+            <th>Web Designer/Developer – Summer Research Scholarship</th>
+            <th>University of Queensland</th>
+            <th>November 22 2010 - February 2011</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3>
+                <p><em>Description</em>I participated in a Summer Research Scholarship for a 10 week period and was working on a Biology Laboratory simulation project that is being developed in SproutCore, which is an MVC JavaScript framework, notably used by Apple in their MobileMe product suite.</p>
+
+                <p>For more information please contact either myself on the above details or the Co-ordinator John Zornig by email at <a href="mailto:j.zornig@uq.edu.au">j.zornig@uq.edu.au</a> (Profile at <a href="http://ceit.uq.edu.au/people/jz" target="_blank">http://ceit.uq.edu.au/people/jz</a>)</p>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Computer Technician</th>
+            <th>Rix Computers</th>
+            <th>Feb 15 2009 - Feb 26 2010</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3>
+                <p><em>Technical Duties</em> Day-to-day duties included; Desktop and Laptop Repairs and Upgrades, Software Installation, OS Installs, Network Setup, Basic Data Recovery, Basic Server Administration. In this vain I was also responsible for advising customers in a wide-range of technical matters.</p>
+
+                <p>I also performed some on-site work for various clients. In this capacity I was often responsible for installing new PCs, configuring and installing peripherals, setting up networks and configuring network equipment.</p>
+
+                <br/><em>Store Management</em><p>As an employee of a small business, I was also tasked with performing other, non-technical tasks.  Among these were:</p>
+
+                <ul>
+                    <li>Ordering Stock</li>
+                    <li>Processing Stock</li>
+                    <li>Handling RMAs</li>
+                    <li>Customer Service</li>
+                    <li>Sales</li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="page work-history">
+
+    <p><em>Other Duties</em>  I was also responsible for counting and balancing the takings each week and preparing them for banking.<p>
+    <br />
+    <p><em>Other Details</em> Full Time Employment – Approx 50 hours per week. Of note is also the fact that the responsibility of running the store was shared between only myself and one other employee. As such when my colleague was away for any reason, I was solely responsible for the day-to-day running of the store, on one occasion for a week and a half with minimal input or supervision from my boss.</p>
+
+
+    <table class="work-history">
+        <thead>
+        <th>Role</th>
+        <th>Company</th>
+        <th>Timeframe</th>
+        </thead>
+        <tbody>
+        <tr>
+            <th>Trainee Network and Systems Administrator</th>
+            <th>IT Training Solutions</th>
+            <th>Feb 2008 - Mar 2009</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3>
+                <br/>
+                <p><em>Duties</em> Day-to-day duties included; computer repair, configuring network resources, configuring computers and network services, setting-up computer labs, re-cabling, server backups,  and asset management.</p>
+                <br/><p>During my tenure I was also responsible for deploying Ghost Solutions Suite 2.5, transitioning the desktop imaging system to a PXE-based boot system, where boot disks had previously been required. As part of a larger team, I also aided in the creation of images for the system.</p>
+
+                <br/><p><em>Other Details</em> Part-Time work, one day per week as a School-based Trainee. Work completed alongside Certificate IV in Information Technology (Networking).</p>
+
+            </td>
+        </tr>
+        <tr>
+            <th>Trainee Computer Technician</th>
+            <th>Rix Computers</th>
+            <th>Dec 2007 - Dec 2008</th>
+        </tr>
+        <tr>
+            <td COLSPAN=3>
+                <p><em>Duties</em>Day-to-day duties included; repairing Computers, Conducting Sales, Advising customers in computer and consumer electronics related topics, Stock-taking.</p>
+                <br/><p><em>Other Details</em>Part-Time work, one day per week as a School-based Trainee. Work completed alongside Certificate III in Information Technology (Support) (see above).</p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="page skills">
+    <h3 class="section-heading">Information Technology Skills Applicable in a Business Environment</h3>
+    <p>Throughout my career, I have sought to gain skills and knowledge within my profession, below I have listed a number of skills that I believe make me valuable within my field:</p>
+    <ul class="skills">
+        <li>OS Deployment – I  have experience in installing and configuring a wide range of desktop and server operating systems including:
+            <ul>
+                <li>Windows (All desktop versions from 3.141 through to 7 (excluding only NT4) plus Server 2003 and Server 2008</li>
+                <li>Linux (Including Ubuntu Server)</li>
+                <li>Mac OS X (10.5 and 10.6)</li>
+            </ul>
+        </li>
+        <li>OS Virtualisation
+            <ul>
+                <li>Oracle Virtualbox Installation and Management</li>
+                <li>PHP Virtualbox</li>
+                <li>VMware Workstation</li>
+                <li>Microsoft Virtual PC/Server and Hyper-V</li>
+                <li>Configuration of Guest Operating Systems including:
+                    <ul>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                        <li>Open Solaris</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Configuring Windows Server 2008 Roles (Including R2):
+            <ul>
+                <li>Domain Controllers</li>
+                <li>DHCP and DNS</li>
+                <li>VPN Gateway</li>
+                <li>Print Server</li>
+                <li>File Server</li>
+                <li>Windows Server Backup</li>
+                <li>Windows Server Update Service (WSUS)</li>
+                <li>Hyper-V</li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+<div class="page skills">
+    <ul class="skills">
+        <li>Windows Domains Management:
+            <ul>
+                <li>Joinging Windows Based Clients:</li>
+                <li>Joining Linux Clients using Likewise</li>
+                <li>Joining Mac OSX clients</li>
+                <li>Group Policy Configuration</li>
+            </ul>
+        </li>
+        <li>Linux Server Deployment
+            <ul>
+                <li>Samba Configuration</li>
+                <li>LAMP Server Configuration and Deployment (Ubuntu Server)
+                    <ul>
+                        <li>Apache</li>
+                        <li>MySQL</li>
+                        <li>PostgrSQL</li>
+                        <li>ProFTPd</li>
+                        <li>PHP</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Zimbra Collaboration Suite Including but not Limited to:
+            <ul>
+                <li>Installation on Linux Hosts (Ubuntu)</li>
+                <li>Configuration of Relevant DNS MX Records</li>
+                <li>Configuration for Multiple Domains on a Single Server</li>
+            </ul>
+        </li>
+        <li>Network Configuration
+            <ul>
+                <li>Deployment of Routers, Modems, Switches and Wireless APs</li>
+                <li>Router Configuration including:
+                    <ul>
+                        <li>Port Forwarding and VPN Passthrough</li>
+                        <li>Firewall Management</li>
+                        <li>Configuring DHCP and DNS</li>
+                        <li>Configuring Subnets</li>
+                    </ul>
+                </li>
+                <li>Modem Configuration including:
+                    <ul>
+                        <li>Internet Setup</li>
+                        <li>Configuring Bridge Mode etc.</li>
+                    </ul>
+                </li>
+                <li>Wireless Access Point Configuration including:
+                    <ul>
+                        <li>Creating Hotspot</li>
+                        <li>Securing Hotspot with Relevant Configuration</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div class="page skills">
+    <ul class="skills">
+        <li>Other Programming Experience </li>
+        <ul>
+            <li>Experience with C Programming Language in developing for ATmega64 based microcontrollers.</li>
+        </ul>
+    </ul>
+    <ul class="skills">
+        <li>Computer Hardware Repair; with Relevant Work Experience Listed.</li>
+    </ul>
+    <p>I hereby declare that all of this information is true and correct as of today Thursday, September 10, 2011</p>
+
+    <img src="images/signature.png" class="signature"/>
+</div>
+
+<div class="page referees">
+    <h3 class="section-heading">Referees</h3>
+
+    <p>John Zornig – Senior Systems Architect<br>
+        Centre for Educational Innovation and Technoloy (CEIT)<br>
+        University of Queensland, St Lucia<br>
+                          <br>
+        Ph: 07 3365 1642<br>
+        M: 04 3435 1532<br>
+        Email: <a href="mailto:j.zornig@uq.edu.au">j.zornig@uq.edu.au</a></p>
+
+    <hr/>
+
+    <p>Len Smith – Lenardi Driving School<br>
+                          Ph – 04 0664 6216<br>
+                          Email:  <a href="mailto:lenardidrivingschool@gmail.com">lenardidrivingschool@gmail.com</a></p>
+    <hr/>
+    <p>Simon Sturmer – Freelance Developer<br>
+                          Ph: 0434964144<br>
+                          Email: <a href="mailto:simon@sigate.com.au">simon@sigate.com.au</a></p>
+    <hr/>
+
+    <p>Curtis Chappell – General Manager</p>
+    <p>IT Training Solutions<br>
+        Ground Floor,   62 Astor Terrace<br>
+        Spring Hill   QLD 4000</p>
+    <p>Ph 1300 135   375<br>
+        Email: <a href="mailto:curtis@itts.com.au">curtis@itts.com.au</a></p></td>
+
+
+</div>
+
+</div>
+</div>
+
+<div id="instructions">
+    <p>Navigate using the Left and Right Arrow Keys.</p>
+</div>
+
+<div id="footer-strip">
+
+</div>
+
+<footer>
+    <p>Contact me via email at <a href="mailto:jake@secretservers.net">jake@secretservers.net</a> or by phone on 0418398406</p>
+    <p>I work with:<p>
+    <p>
+        <!-- Technologies -->
+        <img src="images/css3.png" alt="CSS3 Logo"/>
+        <img src="images/html5_logo.png" alt="Html5 Logo"/>
+        <a href src="http://jquery.com" alt="JQuery Logo"><img src="images/jquery.png" alt="jquery logo"></a>
+        <a href src="http://rubyonrails.org/" alt="Ruby on Rails Logo"><img src="images/rails.png"></a>
+        <a href src ="http://www.sproutcore.com" alt="SproutCore"><img src="images/sproutcore.png"></a>
+        <!--Content Management Systems -->
+        <a href src="http://www.drupal.org" alt="Drupal logo"><img src="images/drupal.png"></a>
+        <a href src="http://www.wordpress.org" alt="WordPress logo"><img src="images/wordpress.png"/></a>
+    </p>
+</footer>
+
 </body>
 
 </html>
