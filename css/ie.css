@@ -1,5 +1,5 @@
 /*Fixes for Internet Explorer*/
 
-sidebar img, footer img {
+sidebar a, footer a {
     border:none;
 }
