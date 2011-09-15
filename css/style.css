@@ -107,7 +107,7 @@ div#sidebar ul, div#sidebar li {
 div.mybook{}
 
 div.page h1 {
-	color:#75b530;
+	color:#75b530 !important;
 	font:Cambria, Helvetica, Arial, serif;
 	text-align:center;
 	font-style:italic;
