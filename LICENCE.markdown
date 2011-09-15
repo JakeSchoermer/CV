@@ -1,0 +1,1 @@
+Unless otherwise noted all code in this project 
