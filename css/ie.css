@@ -2,4 +2,5 @@
 
 sidebar a, footer a {
     border:none;
+    border-style:none;
 }
