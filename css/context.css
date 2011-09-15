@@ -6,10 +6,20 @@ div.context-menu {
     top:-48px;
 
     height:0;
-    width:200px;
     z-index:99;
     margin:0;
 
     float:left;
+}
 
+
+div.context-menu p {
+    float:left;
+    color:white !important;
+    display:inline;
+    background:rgba(0, 0, 0, 0.7);
+    padding:5px;
+
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }

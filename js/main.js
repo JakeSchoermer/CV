@@ -16,7 +16,7 @@ $(function() {
 	//Main
 
     function show(item){
-        $(this).parent().append('<div class="context-menu"<p>'+$(this).find("img").attr("alt")+'</p></div>');
+        $(this).parent().append('<div class="context-menu"><p>'+$(this).find("img").attr("alt")+'</p></div>');
     }
 
     function hide(item) {

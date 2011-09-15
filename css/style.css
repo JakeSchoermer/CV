@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; }
 body { font: 14px/1.4 Georgia, serif; }
 
-html, body {min-width:1224px}
+html, body {min-width:1330px}
 
 body {
 	background-image:url("../images/bg.jpg");
@@ -31,8 +31,9 @@ article, aside, figure, footer, header, nav, section { display: block; }
 }
 
 
-a, a:visited, a:hover, a:active { color:blue;}
-p, td, h1, h2, h3 { color:#17365d;}
+a, a:visited, a:hover, a:active { color:blue !important;}
+
+p, td, h1, h2, h3 { color:#17365d !important;}
 
 h3.section-heading {
     clear:both;
@@ -62,12 +63,12 @@ h1, h2, h3, h4, h5, h6, p, a {
 heading h1{
 	font-family: MothproofScriptRegular, Helvetica, Arial, Serif;
 	max-width:500px;
-	color:white;
+	color:white !important;
 }
 
 heading h2{
 	max-width:500px;
-	color:white;
+	color:white !important;
 }
 
 heading h3 {
@@ -75,7 +76,7 @@ heading h3 {
 	position:absolute;
 	top:10px;
 	right:10px;
-	color:white;
+	color:white !important;
 }
 
 div#heading-strip {
@@ -146,6 +147,8 @@ img#profile {
     float:left;
     position:relative;
     left:100px;
+
+    border: black 2px solid;
 }
 
 /*Formal Qualifications */
@@ -240,7 +243,7 @@ img.signature {
 /*Instructions*/
 
 div#instructions p{
-    color:white;
+    color:white !important;
     text-align:center;
 }
 
@@ -277,13 +280,13 @@ footer {
 
 footer p, footer h1, footer h2, footer h3,
 footer h4, footer, h5, footer h6 {
-    color:white;
+    color:white !important;
 }
 
 footer a, footer a:visited{
-    color: #b89a3a;
+    color: #b89a3a !important;
 }
 
 footer a:hover, footer active {
-    color:white;
+    color:white !important;
 }

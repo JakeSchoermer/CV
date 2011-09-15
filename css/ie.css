@@ -1,0 +1,5 @@
+/*Fixes for Internet Explorer*/
+
+sidebar img, footer img {
+    border:none;
+}
