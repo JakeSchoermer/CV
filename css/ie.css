@@ -1,6 +1,6 @@
 /*Fixes for Internet Explorer*/
 
 sidebar img, footer img {
-    border:0;
-    border-style:none;
+    border:0 !important;
+    border-style:none !important;
 }
