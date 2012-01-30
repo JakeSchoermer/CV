@@ -40,9 +40,8 @@ $(function() {
 			$(this).animate({
 				width:800,
 				height:600,
-				right:(document.width - 800)/2,
+				right:($(window).width() - 800)/2,
 				top:200
-				
 			});
 			
 			$('#sidebar-right-content').show();

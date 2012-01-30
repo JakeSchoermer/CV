@@ -300,8 +300,9 @@ div#sidebar-right-content div#sidebar-right-content-top p.description {
 div#sidebar-right-content div#sidebar-right-content-main {
 	height:467px;
 	background-color:rgba(51, 51, 51, 0.7);
-	overflow:scroll;
+	overflow:auto;
 	padding:5px;
+	width:770px;
 }
 
 /*Footer*/
@@ -359,12 +360,12 @@ footer a:hover, footer active {
 	filter: flipV flipH;
 	
 	/*Otherwise*/
-	--moz-transform:rotate(270deg); 
-	-moz-transform-origin: bottom left;
+	-moz-transform:rotate(270deg); 
+	-moz-transform-origin: bottom right;
 	-webkit-transform: rotate(270deg);
 	-webkit-transform-origin: bottom right;
 	-o-transform: rotate(270deg);
-	-o-transform-origin:  bottom left;
+	-o-transform-origin:  bottom right;
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 
