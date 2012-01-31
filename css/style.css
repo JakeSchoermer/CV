@@ -33,7 +33,7 @@ article, aside, figure, footer, header, nav, section { display: block; }
 
 #mybook a, #mybook a:visited, #mybook a:hover, #mybook a:active { color:blue;}
 
-#mybook p, #mybook td #mybook th, #mybook h1, #mybook h2, #mybook h3 { color:#17365d !important;}
+#mybook p, #mybook tbody, #mybook h1, #mybook h2, #mybook h3 { color:#17365d;}
 
 h3.section-heading {
     clear:both;

@@ -10,7 +10,8 @@ $(function() {
 		closed: false,
 		autoCenter:true,
 		keyboard:true,
-		pagePadding:25
+		pagePadding:25,
+		speed:500
 	});
 	
 	//Main
@@ -60,7 +61,7 @@ $(function() {
 			$(this).parent().animate({
 				width:40,
 				height:800,
-				right:0,
+				right:0,	
 				top:110
 			});
 			$('#sidebar-right-content').hide();
